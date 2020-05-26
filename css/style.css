@@ -1,0 +1,7 @@
+/***********************************************/
+/***************** tekst ***********************/
+
+/*Jeg bruger font-face til at finde fontén på computeren*/
+@font-face {
+    font-family: "questrial";
+    src: url("/fonts/gills_sv/GillSans-Light.ttf");
