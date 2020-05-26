@@ -3,19 +3,20 @@
 
 /*Jeg bruger font-face til at finde fontén på computeren*/
 @font-face {
-    font-family: "gill-sans";
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    font-family: 'Poppins', sans-serif;
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 }
 /*Jeg giver en font til h1, h2 og h3*/
 h1,
 h2,
 h3 {
-    font-family: "Baskervville", serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 /*h1 er til banneret på hver side*/
 h1 {
-    background-color: rgba(242, 203, 217, 0.6);
+    background-color: #e4717a;
     width: 100%;
     text-align: center; /*Centerer teksten*/
     padding: 15px;
@@ -92,12 +93,12 @@ main {
 /*Jeg adskiller mine menupunkter lidt*/
 #menuPunkter a {
     font-size: 25px;
-    font-family: "Baskervville", serif;
+    font-family: 'Poppins', sans-serif;
     display: block;
     margin: 10px;
     padding: 10px;
     /*Jeg fjerner stregen og ændre farven*/
-    color: #f2cbd9;
+    color: #e4717a;
     text-decoration: none;
     text-shadow: 0px 1px 6px #0000001d;
 }
@@ -180,7 +181,8 @@ textarea {
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    border-color: #f2cbd9;
+    border-color: #39b54a;
+
 }
 
 #indhold {
@@ -190,7 +192,7 @@ textarea {
 }
 /* Style the submit button with a specific background color etc */
 #contactButton {
-    background-color: rgba(188, 206, 216, 0.7);
+    background-color: #e4717a;
     color: black;
     padding: 12px 20px;
     border: none;
@@ -222,46 +224,6 @@ label {
     position: absolute;
 }
 
-#landingMain {
-    /*Bagrundsbilledet ligges ind*/
-    background-image: url(/images/mobilForsidepr%C3%B8ve.jpg);
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-
-#landingMain .subpages {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    justify-content: space-around;
-    padding: 10% 0;
-    flex: 1;
-}
-
-#landingMain .subpage {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#landingMain .subpages a {
-    /*Der ligges en baggrundsfarve på vores a tags og de styles*/
-    background-color: rgba(188, 206, 216, 0.7);
-    width: 80%;
-    padding: 15px;
-    font-family: "Baskervville", serif;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: flex;
-    justify-content: center;
-    border: 1px solid #f2cbd9;
-}
 
 /***********************************************/
 /********** stylesheet for salt fisk **************/
@@ -284,6 +246,7 @@ label {
 #textfooter {
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 #socialmedie {
