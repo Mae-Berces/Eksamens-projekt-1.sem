@@ -25,7 +25,7 @@ h1 {
 
 /*Jeg giver en font til body*/
 body {
-    font-family: "gill-sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
@@ -70,6 +70,7 @@ main {
     z-index: 5;
     /* menubaren animeres ind*/
     transition: left 0.3s linear;
+
 }
 
 /*Denne style bliver brugt når der er #menu i url'en. Det bruger vi til at vise navbaren, når vi trykker på "åben navbar" ikonet*/
@@ -110,18 +111,21 @@ main {
 #openNav {
     /*Gør så vi kan placere krydset i navbaren som vi vil*/
     position: absolute;
-    top: 40px;
+    top: 30px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 45px;
     color: black;
+    
 }
 
 /*knapper til åben og luk af navbar*/
 #closeNav {
     right: 40px;
+   
 }
 #openNav {
-    left: 40px;
+    right: 40px;
+
 }
 
 /***********************************************/
@@ -136,6 +140,7 @@ main {
 /*Jeg giver logoet 100% af forældrens 60%*/
 #logo img {
     width: 100%;
+
 }
 
 /***********************************************/
@@ -143,7 +148,7 @@ main {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: white;
 }
 
@@ -155,7 +160,9 @@ header {
     width: 45%;
     background-color: white;
     max-width: 200px;
-    padding: 10px;
+    padding: 15px;
+    margin: 5px;
+    
 }
 
 #logoTop img,
@@ -222,6 +229,7 @@ label {
 #landingHeader #logoTop {
     /*Logoet ligges ud over header (en del af det ønskede design)*/
     position: absolute;
+    
 }
 
 
