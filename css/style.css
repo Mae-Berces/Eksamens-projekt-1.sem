@@ -277,8 +277,15 @@ justify-content: center;
 /********** stylesheet for om os ***************/
 #omos{
     width: 100%;
+    margin-bottom: 30px;
 }
-
+#omsaltefisk{
+    display: flex;
+    justify-content: center;
+    font-size: px;
+    color: #e4717a;
+    margin-bottom: 30px;
+}
 /***********************************************/
 /********** stylesheet for footer **************/
 .footer {
