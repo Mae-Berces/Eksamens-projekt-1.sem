@@ -366,7 +366,75 @@ p {
 /********* mediaquery til tablet ***************/
 
 @media only screen and (min-width: 700px) {
-    /*Vi tilpasser gallery til tablet*/
+   /*Jeg tilpasser landingpage til tablet*/
+    #landingMain .subpages {
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    #landingMain .subpage {
+        width: 40%;
+        margin: 20px;
+    }
+
+    #landingMain .subpage:last-child {
+        width: 90%;
+    }
+
+    #landingMain .subpages a {
+        width: 100%;
+    }
+
+    .footer {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+       /*Jeg tilpasser kontakt til tablet*/
+    input[type="text"],
+select,
+textarea {
+    width: 200%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    border-color: #39b54a;
+}
+
+#indhold {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Style the submit button with a specific background color etc */
+#contactButton {
+    background-color: #e4717a;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    margin-top: 40px;
+}
+label {
+    color: black;
+}
+    
+    
+    
     
 }
 
@@ -374,7 +442,7 @@ p {
 /********* mediaquery til web ******************/
 
 @media only screen and (min-width: 1200px) {
-    /*Vi tilpasser naven til tablet*/
+    /*Jeg tilpasser naven til tablet*/
     #closeNav,
     #openNav,
     #logo,
@@ -382,4 +450,85 @@ p {
         /*Disse funktioner vil vi ikke vise*/
         display: none;
     }
+    
+    #menuPunkter #logoTopDesktop {
+        display: block;
+        padding: 0;
+        width: 150px;
+       
+    }
+
+    #menuPunkter #logoTopDesktop a {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    #menu {
+        position: relative;
+        left: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    #menuPunkter {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    #menuPunkter a {
+        color: #e4717a;
+    }
+    
+    /*Jeg tilpasser footer til web*/
+
+    #socialmedie {
+        padding-left: 250px;
+    }
+
+   /*Jeg tilpasser kontakt til web*/
+    input[type="text"],
+select,
+textarea {
+    width: 200%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    border-color: #39b54a;
+}
+
+#indhold {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Style the submit button with a specific background color etc */
+#contactButton {
+    background-color: #e4717a;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    margin-top: 40px;
+}
+label {
+    color: black;
+}
+    
 }
