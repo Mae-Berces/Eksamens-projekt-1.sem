@@ -180,7 +180,7 @@ header {
     justify-content: space-around;
     width: 100%;
 }
-#værdierne{
+#værdierne img{
     width: 100%;
     display: flex;
     align-items: center;
@@ -254,7 +254,7 @@ label {
     position: absolute;  
 }
 
-#Saltefisk{
+#Saltefiskmobil{
     width: 100%;
 }
 #mainlanding{
@@ -276,6 +276,7 @@ label {
     justify-content: center;
     font-size: 20px;
     margin-bottom: 75px;
+    
 }
 
 #landingpagekonkurrence{
@@ -293,6 +294,10 @@ justify-content: center;
     color: black;
     margin-bottom: 30px;
 }
+#saltefiskweb{
+       display: none;
+    } 
+
 /***********************************************/
 /********** stylesheet for konkurrence **************/
 #Konkurrence{
@@ -411,6 +416,16 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+    
+/*h1 er til banneret på hver side*/
+h1 {
+    background-color: #e4717a;
+    width: 100%;
+    text-align: center; /*Centerer teksten*/
+    padding: 15px;
+    margin-top: 50px;
 }
 /* Style the submit button with a specific background color etc */
 #contactButton {
@@ -433,7 +448,9 @@ label {
     color: black;
 }
     
-    
+   #saltefiskweb{
+       display: none;
+    } 
     
     
 }
@@ -530,5 +547,10 @@ textarea {
 label {
     color: black;
 }
-    
+    #Saltefiskmobil{
+        display: none; 
+    }
+    #saltefiskweb{
+        width: 100%;
+    }
 }
