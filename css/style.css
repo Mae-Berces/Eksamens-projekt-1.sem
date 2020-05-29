@@ -547,10 +547,23 @@ textarea {
 label {
     color: black;
 }
+    /* Jeg tipasse landpage img ind*/
     #Saltefiskmobil{
         display: none; 
     }
+    
     #saltefiskweb{
+        display: flex;
         width: 100%;
+        margin-top: 50px;
     }
+    
+    
+#logoTop img,
+#logoTopDesktop img {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
 }
