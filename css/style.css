@@ -102,8 +102,14 @@ main {
     color: #e4717a;
     text-decoration: none;
     text-shadow: 0px 1px 6px #0000001d;
+    
 }
-
+.navlink{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
 /***********************************************/
 /************ mobil nav knapper ****************/
 
@@ -414,7 +420,6 @@ textarea {
 
 #indhold {
     display: flex;
-    flex-direction: column;
     align-items: center;
     
 }
@@ -462,7 +467,7 @@ label {
 /********* mediaquery til web ******************/
 
 @media only screen and (min-width: 1200px) {
-    /*Jeg tilpasser naven til tablet*/
+    /*Jeg tilpasser naven til web*/
     #closeNav,
     #openNav,
     #logo,
@@ -527,8 +532,11 @@ textarea {
 
 #indhold {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    padding: 50px 50px;
+ 
 }
 /* Style the submit button with a specific background color etc */
 #contactButton {
@@ -569,16 +577,10 @@ label {
 #logoTopDesktop img {
     width: 100%;
     margin-bottom: 100px;
-    margin-top: 10px;
-    align-content: center;
+    text-align: center;
 
 }
     /*Jeg tilpasse saltefisk img og teskt ind*/
-     #omos{
-        display: block;
-        width: 38%;
-    }
-
     #omsaltefisk {
         width: 40%;
        
@@ -588,11 +590,20 @@ label {
         background-image: none;
         justify-content: space-around;
         align-items: flex-start;
-        max-width: 1200px;
-        width: 70%;
+        max-width: 1000px;
+        width: 50%;
     }
 
     #saltefiske {
         align-items: center;
+    }
+    
+    /* Jeg tilpasse om os ind*/
+    #værdierne{
+    display: flex;
+        flex-direction: row;
+    }
+    #indholdomværdier{
+        
     }
 }
