@@ -338,6 +338,8 @@ justify-content: center;
     color: black;
     margin-bottom: 30px;
 }
+
+
 /***********************************************/
 /********** stylesheet for footer **************/
 .footer {
@@ -602,8 +604,29 @@ label {
     #værdierne{
     display: flex;
         flex-direction: row;
+        width: 33%;
+       
     }
+    
     #indholdomværdier{
         
     }
+    
+    /*Jeg tilpasser konkurrence ind*/
+    #Konkurrence{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 50px;
+ 
+    }
+    #Konkurrence{
+        width: 40%
+}
+    #textkonkurrence{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
