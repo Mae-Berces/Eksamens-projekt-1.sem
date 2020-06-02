@@ -609,7 +609,11 @@ label {
     }
     
     #indholdomværdier{
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
     }
     
     /*Jeg tilpasser konkurrence ind*/
@@ -627,6 +631,14 @@ label {
     #textkonkurrence{
         display: flex;
         flex-direction: column;
+        width: 30%;
+    }
+    #vind{
+        font-size: 40px;
+        margin-bottom: 80px; 
+    }
+    #foratdeltage{
+        font-size: 25px;
     }
     
 }
