@@ -639,18 +639,15 @@ label {
        
     }
     
-    #indholdomværdier{
+    #textomos {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;   
+        align-items: center; 
+        column-count: 2;
     }
     
-    #artice{
-        column-count:  2;
-         column-count: 2;
-    word-break: inherit; 
-    }
+    
     /*Jeg tilpasser konkurrence ind*/
     #Konkurrence{
         display: flex;
