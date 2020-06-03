@@ -643,14 +643,13 @@ label {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        
-    
+        align-items: center;   
     }
+    
     #artice{
         column-count:  2;
-        margin-top: 50px;
-        
+         column-count: 2;
+    word-break: inherit; 
     }
     /*Jeg tilpasser konkurrence ind*/
     #Konkurrence{
