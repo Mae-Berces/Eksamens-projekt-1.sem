@@ -195,8 +195,15 @@ header {
     
 }
 
-#omos{
+#Omos{
      display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+}
+#Omos2{
+    display: flex;
     justify-content: center;
     font-size: 20px;
     color: black;
@@ -338,7 +345,13 @@ justify-content: center;
     color: black;
     margin-bottom: 30px;
 }
-
+#ingredienser{
+    display: flex;
+    justify-content: center;
+    font-size: px;
+    color: black;
+    margin-bottom: 30px;
+}
 
 /***********************************************/
 /********** stylesheet for footer **************/
@@ -463,6 +476,18 @@ label {
         margin-top: 50px;
 
     }
+    
+    /* Jeg tilpasse om os ind*/
+
+       
+    
+    
+/* jeg tilpasse konkurrence ind*/
+    #Konkurrence{
+        width: 50%;
+    }
+    
+   
 }
 
 /***********************************************/
@@ -555,7 +580,7 @@ textarea {
     flex-direction: column;
     align-items: center;
     width: 150px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 label {
     color: black;
@@ -584,7 +609,7 @@ label {
 }
     /*Jeg tilpasse saltefisk img og teskt ind*/
     #omsaltefisk {
-        width: 40%;
+        font-size: 20px;;
        
     }
 
@@ -596,8 +621,14 @@ label {
         width: 50%;
     }
 
-    #saltefiske {
-        align-items: center;
+    #ingredienser{
+        font-size: 20px;
+    }
+    
+    #saltefisktext{
+       display: flex;
+        flex-direction: column;
+        width: 30%;
     }
     
     /* Jeg tilpasse om os ind*/
@@ -613,9 +644,14 @@ label {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     
     }
-    
+    #artice{
+        column-count:  2;
+        margin-top: 50px;
+        
+    }
     /*Jeg tilpasser konkurrence ind*/
     #Konkurrence{
         display: flex;
@@ -638,7 +674,7 @@ label {
         margin-bottom: 80px; 
     }
     #foratdeltage{
-        font-size: 25px;
+        font-size: 20px;
     }
     
 }
