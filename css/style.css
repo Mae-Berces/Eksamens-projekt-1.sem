@@ -181,12 +181,13 @@ header {
 }
 /***********************************************/
 /********* stylesheet for Om os **************/
-. Værdier{
+.Værdier{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     width: 100%;
 }
-#værdierne img{
+.Værdier img{
     width: 100%;
     display: flex;
     align-items: center;
@@ -632,21 +633,31 @@ label {
     }
     
     /* Jeg tilpasse om os ind*/
-    #værdierne{
-    display: flex;
+    
+    .Værdier{
+        display: flex;
         flex-direction: row;
-        width: 33%;
-       
+    justify-content: center;
+        align-items: center;
+          width: 100%;
+            
+    }
+    .Værdier img{
+        width: 30%;
     }
     
-    #textomos {
+    #textomos  {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; 
+        flex-direction: row;
+        justify-content:space-around;
+        align-items:flex-start; 
         column-count: 2;
     }
-    
+    #textomos p {
+        width: 40%;
+        margin-top: 30px;
+     
+    }
     
     /*Jeg tilpasser konkurrence ind*/
     #Konkurrence{
@@ -666,8 +677,9 @@ label {
         width: 30%;
     }
     #vind{
-        font-size: 40px;
-        margin-bottom: 80px; 
+        font-size: 35px;
+        margin-bottom: 80px;
+       
     }
     #foratdeltage{
         font-size: 20px;
