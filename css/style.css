@@ -413,7 +413,7 @@ p {
     #landingMain .subpages a {
         width: 100%;
     }
-
+/* jeg tilpasser footer */
     .footer {
         padding-left: 70px;
         padding-right: 70px;
@@ -479,8 +479,16 @@ label {
     }
     
     /* Jeg tilpasse om os ind*/
-
-       
+    .Værdier{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+        align-items: center;
+          width: 100%;
+     }
+       .Værdier img{
+        width: 50%;
+    } 
     
     
 /* jeg tilpasse konkurrence ind*/
